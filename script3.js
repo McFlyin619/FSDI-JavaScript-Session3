@@ -8,6 +8,7 @@ let pet = {
         `<p><b>Hunger:</b> ${this.hunger}</p>
         <p><b>Happiness:</b> ${this.happiness}</p>`;
     },
+    
     feed:function(){
         // feed pet
         if(this.hunger > 0){
